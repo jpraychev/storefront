@@ -22,7 +22,7 @@
 }
 
 .search-field {
-    background-color: var(main-bg-color) !important;
+    background-color: var(--main-bg-color) !important;
     color: var(--main-text-in-bg-color) !important;
     box-shadow: none !important;
 }
@@ -478,4 +478,16 @@ td.product-name {
 
 .toggle-sidebar:hover {
     cursor: pointer;
+}
+
+.price_slider_amount .button {
+    background-color: var(--main-bg-color) !important;
+    color: var(--main-text-in-bg-color) !important;
+}
+
+.price_slider_amount .button:hover {
+    background-color: var(--main-bg-color) !important;
+    color: var(--main-text-in-bg-color) !important;
+    border: none !important;
+    box-shadow: 0px 0px 3px var(--main-warm-color) !important;
 }
