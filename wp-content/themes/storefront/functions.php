@@ -75,7 +75,7 @@ function sidebarToggle() {
 			jQuery(document).ready(function() {
 				
 				const isFrontPage = () => {
-					wordpressURL = 'http://localhost/jewelry-project/'
+					wordpressURL = 'http://localhost/jewelry-project/index.php/shop/'
 					wordpressFilterUrl = wordpressURL + '?filter'
 					wordpressPriceUrl = wordpressURL + '?min_price'
 					currUrl = window.location.href

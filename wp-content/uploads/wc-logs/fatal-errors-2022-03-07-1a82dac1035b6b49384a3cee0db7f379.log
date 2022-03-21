@@ -1,0 +1,22 @@
+2022-03-07T04:03:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\UwAmp\www\jewelry-project\wp-content\plugins\woocommerce\packages\woocommerce-blocks\src\BlockTypes\AbstractDynamicBlock.php on line 93
+
+2022-03-07T04:03:33+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\UwAmp\www\jewelry-project\wp-admin\includes\class-wp-privacy-policy-content.php on line 697
+
+2022-03-07T04:06:08+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\UwAmp\www\jewelry-project\wp-includes\Requests\Transport\fsockopen.php on line 253
+
+2022-03-07T04:08:46+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\UwAmp\www\jewelry-project\wp-includes\Requests\Transport\fsockopen.php on line 253
+
+2022-03-07T04:15:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\UwAmp\www\jewelry-project\wp-includes\Requests\Transport\fsockopen.php on line 253
+
+2022-03-07T04:24:12+00:00 CRITICAL Uncaught Error: Call to undefined function curl_init() in C:\UwAmp\www\jewelry-project\wp-content\plugins\deliver-with-econt\bootstrap.php:423
+Stack trace:
+#0 C:\UwAmp\www\jewelry-project\wp-includes\class-wp-hook.php(303): track_deliver_with_econt_settings_changes()
+#1 C:\UwAmp\www\jewelry-project\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#2 C:\UwAmp\www\jewelry-project\wp-includes\plugin.php(470): WP_Hook->do_action()
+#3 C:\UwAmp\www\jewelry-project\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-settings.php(89): do_action()
+#4 C:\UwAmp\www\jewelry-project\wp-content\plugins\woocommerce\includes\admin\class-wc-admin-menus.php(133): WC_Admin_Settings::save()
+#5 C:\UwAmp\www\jewelry-project\wp-includes\class-wp-hook.php(303): WC_Admin_Menus->save_settings()
+#6 C:\UwAmp\www\jewelry-project\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters()
+#7 C:\UwAmp\www\jewelry-project\wp-includes\plugin.php(470): WP_Hook->do_action()
+#8 C:\UwAmp\www\jewelry-project\wp-settings.php( in C:\UwAmp\www\jewelry-project\wp-content\plugins\deliver-with-econt\bootstrap.php on line 423
+

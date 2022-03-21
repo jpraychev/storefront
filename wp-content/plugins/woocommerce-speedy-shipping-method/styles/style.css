@@ -1,0 +1,256 @@
+select.fixed_time:disabled {
+	background-color: rgb(235, 235, 228);
+}
+
+select.fixed_time {
+	color: #666;
+	margin: 0 10px 0 0;
+}
+
+#speedy_form table {
+	border-width: 0;
+	margin-bottom: 15px;
+}
+
+#speedy_form table tbody tr td {
+	border: none;
+	font-size: 14px;
+}
+
+#speedy_form input, #speedy_form select {
+	font-size: 14px;
+}
+
+#speedy_form td {
+	padding: 6px;
+}
+
+#speedy_methods {
+	margin: 15px 10px;
+}
+#speedy_methods table {
+	width: 100%;
+	table-layout: auto;
+}
+
+#speedy_methods table select {
+	font-size: 14px;
+}
+
+#speedy_methods td {
+	padding: 3px 0;
+	font-size: 14px;
+}
+
+#speedy_methods td:first-child {
+	width: 50%;
+}
+
+#speedy_methods td input, #speedy_methods td label {
+	cursor: pointer;
+}
+
+#speedy_methods table.speedy_table {
+	border: 1px solid #AEB0AF;
+	width: 100%;
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+#speedy_methods table.speedy_table  td {
+	border: 1px solid #AEB0AF;
+	padding: 4px;
+}
+
+td.right {
+	text-align: right;
+}
+
+#speedy_methods table.speedy_table  td.right {
+	vertical-align: top;
+}
+
+td.speedy_table_right {
+	vertical-align: top;
+}
+.woocommerce table.shop_table td.speedy_table_right {
+	vertical-align: top;
+}
+
+ /* Admin */
+#speedy_form_admin table tbody tr td {
+	border: none;
+	font-size: 14px;
+}
+
+#speedy_methods table.speedy_table_admin {
+	width: 80%;
+}
+
+.speedy_generate .required {
+	color: #f00;
+}
+
+.speedy_required::after {
+	color: #f00;
+	content: "*";
+}
+
+/* sizing */
+#speedy_form {
+	width: 100%;
+	max-width: 800px;
+}
+
+#speedy_address_1, #speedy_address_2 {
+	width: 86%;
+}
+
+#speedy_city, #speedy_street {
+	width: 60%;
+}
+
+#speedy_country, #speedy_state {
+	width: 40%;
+}
+
+#speedy_postcode, #speedy_street_no {
+	width: 14%;
+}
+
+#speedy_quarter, #speedy_note {
+	width: 85%;
+}
+
+#speedy_block_no, #speedy_entrance_no, #speedy_floor_no, #speedy_apartment_no {
+	width: 16%;
+}
+
+/* Autocomplete */
+.ui-menu .ui-menu-item {
+	font-size: 13px;
+}
+
+#parcels_size input {
+	width: 150px;
+}
+#speedy-settings .speedy-group {
+	background-color: #D5D5D5;
+	border-top: 1px solid #F1F1F1;
+}
+#speedy-settings .speedy-group.speedy-first-in-group {
+	border-top: 10px solid #F1F1F1;
+}
+#speedy-settings th.titledesc {
+	padding-left: 10px;
+	width: 350px;
+}
+#system_requirements {
+	background: white;
+}
+#system_requirements td,
+#system_requirements th{
+	text-align: center;
+}
+#system_requirements td{
+	border-top: 1px solid black;
+}
+#speedy_client_table input[type=radio] {
+	margin: 10px 5px;
+}
+#speedy_client_table #speedy_fixed_time_hour,
+#speedy_client_table #speedy_fixed_time_min {
+	padding: 5px 0;
+	border-color: #CCCCCC;
+	color: #666666;
+	width: 12%;
+	border-radius: 3px;
+}
+#speedy_client_table tr > td:first-child {
+	width: 170px;
+}
+#speedy_client_table input,
+#speedy_client_table select,
+#speedy_client_table tr td:last-child label {
+	float: left;
+}
+#speedy_client_table #speedy_fixed_time_cb.fixed_time {
+	float: initial;
+	vertical-align: middle;
+	height: 14px;
+}
+#speedy_client_table tr td:last-child label {
+	line-height: 23px;
+	padding: 5px;
+}
+#speedy_client_table td {
+	text-align: right;
+}
+#speedy_client_table {
+	width: 100%;
+}
+#speedy_client_table #speedy_street,
+#speedy_client_table #speedy_city {
+	width: 71.7%;
+}
+#speedy_client_table label[for=speedy_street_no],
+#speedy_client_table label[for=speedy_postcode] {
+	width: 13.3%;
+}
+#speedy_client_table #speedy_street_no,
+#speedy_client_table #speedy_postcode {
+	width: 15%;
+}
+#speedy_client_table #speedy_address_1,
+#speedy_client_table #speedy_address_2,
+#speedy_client_table #speedy_note,
+#speedy_client_table #speedy_quarter {
+	width: 100%;
+}
+#speedy_client_table label[for=speedy_entrance_no],
+#speedy_client_table label[for=speedy_floor_no],
+#speedy_client_table label[for=speedy_apartment_no] {
+	width: 13.3%;
+}
+#speedy_client_table #speedy_block_no,
+#speedy_client_table #speedy_entrance_no,
+#speedy_client_table #speedy_floor_no,
+#speedy_client_table #speedy_apartment_no {
+	width: 15%;
+}
+#speedy_client_table #speedy_country,
+#speedy_client_table #speedy_state {
+	width: 40%;
+}
+#speedy_client_table label[for=speedy_state] {
+	width: 20%;
+}
+@media screen and (max-width: 800px) {
+	#speedy_form td {
+		padding: 6px;
+	}
+
+	#speedy_client_table,
+	#speedy_form {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	#speedy_form td {
+		padding: 6px 1px;
+	}
+
+	#speedy_form #speedy_client_table label {
+		font-size: 13px;
+	}
+
+	#speedy_client_table #speedy_fixed_time_hour,
+	#speedy_client_table #speedy_fixed_time_min {
+		width: 20%;
+	}
+
+	#speedy_client_table tr > td:first-child {
+		width: 95px;
+	}
+}

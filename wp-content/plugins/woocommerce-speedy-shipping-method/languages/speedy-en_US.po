@@ -1,0 +1,689 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: my-pluginname 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-08-06 13:46-0400\n"
+"PO-Revision-Date: 2018-08-01 10:25+0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: none\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"X-Poedit-SourceCharset: iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.1.1\n"
+"Language: en_US\n"
+
+# includes/settings-speedy-shipping-method.php
+msgid "ID: %s"
+msgstr "ID: %s"
+
+msgid " (цената за доставка не е калкулирана)"
+msgstr " (shipping price is not calculated)"
+
+msgid "Без опция"
+msgstr "No option"
+
+msgid "ID: %s, Име: %s, Адрес: %s"
+msgstr "ID: %s, Name: %s, Address: %s"
+
+msgid "Минимални системни изисквания за работа на модула за доставка:"
+msgstr "Minimum System Requirements For The Shipping Module:"
+
+msgid "Версия на PHP"
+msgstr "PHP version"
+
+msgid "Версия на MySQL"
+msgstr "MySQL version"
+
+msgid "SOAP разширение"
+msgstr "SOAP extension"
+
+msgid "Изпълнено"
+msgstr "Fulfilled"
+
+msgid "Не е изпълнено"
+msgstr "Not Fulfilled"
+
+msgid "Минимална изисквана версия"
+msgstr "Min Required Version"
+
+msgid "Текуща версия / статус"
+msgstr "Current Version / Status"
+
+msgid "Резултат"
+msgstr "Result"
+
+msgid "Изисквания"
+msgstr "Requirements"
+
+msgid "Версия:"
+msgstr "Version:"
+
+msgid "Статус: <span style=\"color: #f00;\">*</span>"
+msgstr "Status: <span style=\"color: #f00;\">*</span>"
+
+msgid "Включи Спиди"
+msgstr "Enable Speedy"
+
+msgid "Име:"
+msgstr "Name:"
+
+msgid "Името което потребителя ще вижда при плащане."
+msgstr "The name the user will see when paying."
+
+msgid "Спиди"
+msgstr "Speedy"
+
+msgid "Адрес на сървъра:"
+msgstr "Server URL:"
+
+msgid "Потребителско име: <span style=\"color: #f00;\">*</span>"
+msgstr "Username: <span style=\"color: #f00;\">*</span>"
+
+msgid "Парола: <span style=\"color: #f00;\">*</span>"
+msgstr "Password: <span style=\"color: #f00;\">*</span>"
+
+msgid "Лице за контакти: <span style=\"color: #f00;\">*</span>"
+msgstr "Contact person: <span style=\"color: #f00;\">*</span>"
+
+msgid "Телефон: <span style=\"color: #f00;\">*</span>"
+msgstr "Phone: <span style=\"color: #f00;\">*</span>"
+
+msgid "Край на работното време:"
+msgstr "End of working time:"
+
+msgid "Позволени методи: <span style=\"color: #f00;\">*</span>"
+msgstr "Allowed Services: <span style=\"color: #f00;\">*</span>"
+
+msgid "Използвай CTRL за избор на повече от един метод."
+msgstr "Use CTRL to select more than one method."
+
+msgid "Маркирайте всички"
+msgstr "Select All"
+
+msgid "Размаркирайте всички"
+msgstr "Unselect All"
+
+msgid "Генерирай методите"
+msgstr "Generate methods"
+
+msgid "Обект, от който тръгват пратките: <span style=\"color: #f00;\">*</span>"
+msgstr "Object from which shipments leave: <span style=\"color: #f00;\">*</span>"
+
+msgid "Образуване на цена за доставка:"
+msgstr "Service pricing type:"
+
+msgid "Спиди калкулатор"
+msgstr "Speedy calculator"
+
+msgid "Спиди калкулатор + Надбавка за обработка"
+msgstr "Speedy calculator + handling fee"
+
+msgid "Фиксирана цена за доставка"
+msgstr "Fixed price"
+
+msgid "Безплатна доставка"
+msgstr "Free shipping"
+
+msgid "Цена от файл"
+msgstr "Price from file"
+
+msgid "Фиксирана цена за доставка / Надбавка за обработка:"
+msgstr "Fixed price for shipping / Handling charge:"
+
+msgid "Праг на стойност на поръчката за безплатна доставка:"
+msgstr "Minimum order amount for free shipping:"
+
+msgid "Безплатна градска услуга:"
+msgstr "Free city service:"
+
+msgid "Безплатна междуградска услуга:"
+msgstr "Free intercity service:"
+
+msgid "Позволени международни услуги:"
+msgstr "Free international service:"
+
+msgid "Заявка за обратни документи:"
+msgstr "Back documents request:"
+
+msgid "Не"
+msgstr "No"
+
+msgid "Да"
+msgstr "Yes"
+
+msgid "Заявка за обратна разписка:"
+msgstr "Back receipt request:"
+
+msgid "Тегло по подразбиране за един брой: <span style=\"color: #f00;\">*</span>"
+msgstr "Default weight for one item: <span style=\"color: #f00;\">*</span>"
+
+msgid "Опаковка:"
+msgstr "Packing:"
+
+msgid "Паричен превод (вместо наложен платеж):"
+msgstr "Money transfer (instead of Cash on Delivery):"
+
+msgid "Използвай Пощенски Паричен Превод вместо Наложен платеж при създаване на товарителница."
+msgstr "Use Post Money Transfer instead Cash on Delivery at the generation of bill of lading."
+
+msgid "Опции преди плащане:"
+msgstr "Options before payment:"
+
+msgid "Няма"
+msgstr "None"
+
+msgid "Тествай"
+msgstr "Test"
+
+msgid "Платец на куриерска услуга на товарителница за връщане:"
+msgstr "Return courier service payer:"
+
+msgid "Подател"
+msgstr "Sender"
+
+msgid "Получател"
+msgstr "Receiver"
+
+msgid "Градска услуга на товарителница за връщане:"
+msgstr "Return city service:"
+
+msgid "Междуградска услуга на товарителница за връщане:"
+msgstr "Return intercity service:"
+
+msgid "Автоматично изключване на опциите преди плащане при доставка до автомат:"
+msgstr "Automatically ignore the options before payment on delivery to automat:"
+
+msgid "Ваучер за връщане:"
+msgstr "Return voucher:"
+
+msgid "Платец на куриерска услуга по товарителница за връщане:"
+msgstr "Return courier service payer:"
+
+msgid "Принтер за етикети:"
+msgstr "Label printer:"
+
+msgid "Добавете oбявена стойност:"
+msgstr "Add declared value:"
+
+msgid "Изпратете от офис:"
+msgstr "Send from Speedy office:"
+
+msgid "Доставка до офис"
+msgstr "Pickup from office"
+
+msgid "Доставка до адрес"
+msgstr "Delivery to address"
+
+msgid "Изберете офис:"
+msgstr "Choose office:"
+
+msgid "Съдържа документи:"
+msgstr "Contains documents:"
+
+msgid "Документална пратка."
+msgstr "Document shipment."
+
+msgid "Фиксиран час на доставка:"
+msgstr "Fixed hour for delivery:"
+
+msgid "Позволи калкулация на цена за временно неработещи офиси:"
+msgstr "Allow cost calculation for temporary non-working offices:"
+
+msgid "Показване на опция за избор на фиксиран час на доставка за услугите, които го позволяват."
+msgstr "Show 'Fixed hour' option, for the applicable services."
+
+msgid "Цената за доставка участва във фактурата:"
+msgstr "The delivery price is included in the invoice:"
+
+msgid "Настройка за WooCommerce, която определя дали куриерска услуга за сметка на получателя се добавя като стойност в стоковата разписка (фактура) или се визуализира със стойност в името на артикула и нулева цена."
+msgstr "Setting, which determines whether a courier service from the payee is added as a value in the goods receipt (invoice ), or visualize a value in the item name and zero price."
+
+msgid "Брой работни дни за отлагане на доставката:"
+msgstr "Days to postpone taking of the shipment:"
+
+msgid "Валута:"
+msgstr "Currency:"
+
+msgid "Статус на поръчката след генериране на товарителница:"
+msgstr "Order status after the generation of bill of lading:"
+
+msgid "Синхронизация на статусите:"
+msgstr "Synchronize statuses:"
+
+msgid "Статус"
+msgstr "Status"
+
+msgid "Спиди статус"
+msgstr "Speedy status"
+
+msgid "WooCommerce статус"
+msgstr "WooCommerce status"
+
+msgid "Доставена"
+msgstr "Delivered"
+
+msgid "Доставена обратно към подателя"
+msgstr "Delivered Back to Sender"
+
+msgid "Унищожена"
+msgstr "Destroyed"
+
+msgid "Кражба"
+msgstr "Theft/Burglary"
+
+msgid "Отменена"
+msgstr "Canceled"
+
+msgid "Административно приключване"
+msgstr "Administrative Closure"
+
+msgid "Наличност на метода"
+msgstr "Availability of the method"
+
+msgid "Всички налични страни"
+msgstr "All available countries"
+
+msgid "Специфични страни"
+msgstr "Specific countries"
+
+msgid "Изберете страна"
+msgstr "Select a country"
+
+msgid "СПИДИ ПОЩА - Конвертиране на тегло към размер"
+msgstr "Speedy POST - Convert weight to size"
+
+msgid "СПИДИ ПОЩА - Минимален транспортен размер за цяла пратка"
+msgstr "Speedy POST - Minimum size for transport for the package"
+
+msgid "Валутен курс"
+msgstr "Exchange rate"
+
+# woocommerce-speedy-shipping-method.php
+msgid "Настройки"
+msgstr "Settings"
+
+msgid "Грешка при взимането на позволените методи!"
+msgstr "Error while taking allowed methods!"
+
+msgid "Моля, въведете населено място!"
+msgstr "Please enter a city!"
+
+msgid "Моля, въведете държава!"
+msgstr "Please enter a country!"
+
+# print_return_voucher.php
+# print_pdf.php
+msgid "Товарителницата не съществува!"
+msgstr "Warning: Bill of Lading not exists!"
+
+# class-speedy-shipping-method.php
+msgid "За да вземете методите, моля попълнете Адрес на сървъра, Потребителско име и Парола!"
+msgstr "To take the methods, please fill in the Server Address, Username and Password!"
+
+msgid "Моля попълнете Адрес на сървъра, Потребителско име и Парола, за да се генерират офисите!"
+msgstr "Please fill in the Address of the server, username and password to generate the offices!"
+
+msgid "Спиди поръчки"
+msgstr "Speedy orders"
+
+msgid "Адрес за доставка (Спиди)"
+msgstr "Delivery address (Speedy)"
+
+msgid "Търсене"
+msgstr "Search"
+
+msgid "%s (%s дължими при доставка)"
+msgstr "%s (%s due upon delivery)"
+
+msgid "Вашите данни за доставка са различни от данните за Спиди!"
+msgstr "Your Details are different from Speedy details!"
+
+msgid "Моля попълнете задължителните полета!"
+msgstr "Please fill in the required fields!"
+
+msgid "Размер на опаковката в см."
+msgstr "Package size in cm."
+
+msgid "Тегло на пратката"
+msgstr "Package weight"
+
+msgid "Изтрий"
+msgstr "Delete"
+
+msgid "Добави"
+msgstr "Add"
+
+msgid "Неуспешно импортиране на файл %s!"
+msgstr "Failed to Import File %s!"
+
+msgid "Моля, въведете населено място и изберете офис!"
+msgstr "Please enter a city and select an office!"
+
+msgid "Моля, въведете валиден адрес!"
+msgstr "Please enter a valid address!"
+
+msgid "Не може да използвате Наложен платеж, валутата %s лиспва. Моля обърнете се към администраторите на магазина!"
+msgstr "You can't use Cash on Delivery, the currency %s is missing. Please contact the administrators of the store!"
+
+msgid "Please, изберете желаете ли плащане с наложен платеж през Спиди!"
+msgstr ""
+
+msgid "Стойност"
+msgstr "Value"
+
+msgid "Надбавка 'Фиксиран час'"
+msgstr "Allowance 'Fixed Hour'"
+
+msgid "Комисиона 'Нал. платеж'"
+msgstr "Commission 'Payments'"
+
+msgid "Всичко"
+msgstr "Everything"
+
+msgid "За тази поръчка не може да бъде калкулирана цена. Моля обърнете се към администраторите на магазина!"
+msgstr "For this order can not be calculated price. Please contact the administrators of the store!"
+
+msgid "Моля, изберете друг офис или променете адреса за доставка!"
+msgstr "Please choose another office or change your shipping address!"
+
+msgid "Моля, въведете коректно всички данни и кликнете Изчисли цена след това!"
+msgstr "Please enter correctly all data and click \"Calculate Price\" after that!"
+
+msgid "Моля, натиснете бутона Изчисли цена!"
+msgstr "Please click on the Calculate price button!"
+
+msgid "Моля изберете метод за доставка от Спиди!"
+msgstr "Please choose a delivery method from Speedy!"
+
+msgid "Поръчка:"
+msgstr "Order:"
+
+msgid "Тест"
+msgstr "Test"
+
+msgid "Отвори"
+msgstr "Open"
+
+msgid "Избраният офис е АПС и няма да се вземат под внимане опциите за ОПП, ТПП, Обратни Документи и Обратна Разписка"
+msgstr "The selected office is APT and the folowing options will not be taken into account Test before payment, Open before payment, Back documents request and Back receipt request"
+
+msgid "Първата възможна дата за вземане на пратката е: %s. Желаете ли да създадете товарителницата?"
+msgstr "The first available date for taking the shipment is: %s. Would you like to create a Bill of Lading?"
+
+msgid "Няма да се вземат под внимане опциите за Обратни Документи и Обратна Разписка"
+msgstr "The folowing options will not be taken into account Back documents request and Back receipt request"
+
+msgid "Обратни Документи няма да се вземат под внимане"
+msgstr "Back documents request\" will not be taken into account"
+
+msgid "Обратна Разписка няма да се вземат под внимане"
+msgstr "Back receipt request\" will not be taken into account"
+
+msgid "Моля, изчислете цената за доставка отново и при нужда изберете друг метод за доставка!"
+msgstr "Please calculate the shipping price again and if needed select another shipping method!"
+
+msgid "Готово, отказахте товарителница!"
+msgstr "Done, you refused a bill of lading!"
+
+msgid "Внимание: Товарителницата не съществува!"
+msgstr "Warning: Bill of Lading does not exist!"
+
+msgid "Готово, заявихте куриер за товарителница/и: %s !"
+msgstr "Done, you have requested a bill of lading courier/s: %s !"
+
+msgid "Няма избрани товарителници!"
+msgstr "No bills of lading selected!"
+
+msgid "Надбавка \"Фиксиран час\""
+msgstr "Offset \"Fixed Hour \""
+
+msgid "№:"
+msgstr "No:"
+
+msgid "Бл.:"
+msgstr "Apt. building:"
+
+msgid "Вх.:"
+msgstr "Ent.:"
+
+msgid "Ет.:"
+msgstr "Fl.:"
+
+msgid "Ап.:"
+msgstr "Ap.:"
+
+msgid "Забележка към адреса:"
+msgstr "Address Note:"
+
+msgid "Добавяне на валута / Валутен курс"
+msgstr "Add Currency/Exchange rate"
+
+# templates/speedy-form.php
+msgid "Доставка:"
+msgstr "Shipping:"
+
+msgid "до врата"
+msgstr "to door"
+
+msgid "до офис"
+msgstr "to office"
+
+msgid "до автомат"
+msgstr "to automat"
+
+msgid "до автомат (без опция Отвори)"
+msgstr "to automat (without option Open)"
+
+msgid "до автомат (без опция Тествай)"
+msgstr "to automat (without option Test)"
+
+msgid "Населено място:"
+msgstr "City:"
+
+msgid "ПК:"
+msgstr "ZIP:"
+
+msgid "Квартал:"
+msgstr "Quarter:"
+
+msgid "Улица:"
+msgstr "Street:"
+
+msgid "Офис:"
+msgstr "Office:"
+
+msgid "Държава:"
+msgstr "Country:"
+
+msgid "Щат:"
+msgstr "State:"
+
+msgid "Адрес 1:"
+msgstr "Address 1:"
+
+msgid "Адрес 2:"
+msgstr "Address 2:"
+
+msgid "Генериране"
+msgstr "Generate"
+
+msgid "Кликнете Изчисли цена след въвеждане/промяна на данните."
+msgstr "Click \"Calculate Price\" after you enter/modify the data."
+
+msgid "Изчисли цена"
+msgstr "Calculate Price"
+
+msgid "Изберете услуга"
+msgstr "Choose a service"
+
+msgid "Фиксиран час:"
+msgstr "Fixed Hour:"
+
+msgid "Моля, въведете валиден час!"
+msgstr "Please enter a valid time!"
+
+msgid "За да продължите, трябва да изчислите цена и да изберете услуга за доставка!"
+msgstr "To continue, you have to calculate the price and choose a delivery service!"
+
+msgid "Моля, използвайте само латински символи!"
+msgstr "Please, use only latin characters!"
+
+msgid "Моля, изберете валиден час и натиснете изчисли!"
+msgstr "Please select a valid time and click calculate!"
+
+msgid "Моля, изберете валиден час!"
+msgstr "Please select a valid hour!"
+
+msgid "Няма намерени услуги!"
+msgstr "No services found!"
+
+msgid " --- Моля, изчакайте --- "
+msgstr " --- Please Wait --- "
+
+msgid " --- Моля, изберете офис --- "
+msgstr " --- Please select an office --- "
+
+msgid " --- Моля, въведете населено място --- "
+msgstr " --- Please enter a city --- "
+
+msgid " --- Моля, изберете автомат --- "
+msgstr " --- Please select an automat --- "
+
+msgid "Спиди наложен платеж:"
+msgstr "Speedy cash on delivery:"
+
+msgid "Моля, изчакайте. Цената за доставка се калкулира ..."
+msgstr "Please wait. We are calculating your delivery costs ..."
+
+# templates/front/html-speedy-shipping-number.php
+msgid "Номер на товарителница:"
+msgstr "Shipment number:"
+
+# templates/admin/html-speedy-product-shipping-fields.php
+msgid "СПИДИ ПОЩА - Максимален брой единици от продукта запълващ опаковката"
+msgstr "Speedy POST - Maximum number of units of product filling the package"
+
+msgid "Максимален брои продукти за пакет"
+msgstr "Maximum number of products for package"
+
+# templates/admin/html-speedy-loading.php
+msgid "Откажи"
+msgstr "Cancel"
+
+msgid "Принтиране на ваучер за връщане"
+msgstr "Print return voucher"
+
+msgid "Сигурни ли сте, че желаете да откажете тази товарителница?"
+msgstr "Are you sure you want to cancel this bill of lading?"
+
+# templates/admin/html-speedy-generate.php
+msgid "Съдържание:"
+msgstr "Contents:"
+
+msgid "Съдържанието трябва да е между 1 и 100 символа!"
+msgstr "Contents must be between 1 and 100 characters!"
+
+msgid "Тегло (кг):"
+msgstr "Weight (kg):"
+
+msgid "Моля, попълнете тегло!"
+msgstr "Weight required!"
+
+msgid "Моля, въведете опаковка!"
+msgstr "Please enter a package!"
+
+msgid "Обект, от който тръгват пратките:"
+msgstr "Object from which shipments leave:"
+
+msgid "Страна платец:"
+msgstr "Payer type:"
+
+msgid "Брой пакети:"
+msgstr "Parcels Count:"
+
+msgid "Моля, попълнете брой пакети!"
+msgstr "Parcels Count required!"
+
+msgid "Размери на пакети (см):"
+msgstr "Size of parcels (cm):"
+
+msgid "Широчина"
+msgstr "Width"
+
+msgid "Височина"
+msgstr "Height"
+
+msgid "Дълбочина"
+msgstr "Depth"
+
+msgid "Тегло"
+msgstr "Weight"
+
+msgid "Минимален транспортен размер:"
+msgstr "Minimum size for transport:"
+
+msgid "Брой дни за отлагане на доставката:"
+msgstr "Deferred delivery working days:"
+
+msgid "Забележка (клиент):"
+msgstr "Note (client):"
+
+msgid "Наложен платеж:"
+msgstr "Cash On Delivery:"
+
+msgid "Сума на наложения платеж:"
+msgstr "Cash On Delivery total:"
+
+msgid "Чупливи стоки:"
+msgstr "Fragile:"
+
+msgid "Сума на oбявената стойност:"
+msgstr "Declared value total:"
+
+msgid "Моля, преди да генерирате товарителница преизчислете цената за доставка!"
+msgstr "Please re-calculate shipping cost before generating a bill of lading!"
+
+msgid "Моля, изчислете цена, за да генерирате товарителница!"
+msgstr "Please calculate a price to generate a bill of lading!"
+
+# class-speedy-orders-table.php
+msgid "Товарителница"
+msgstr "Bill of lading"
+
+msgid "Поръчка №"
+msgstr "Order #"
+
+msgid "Клиент"
+msgstr "Client"
+
+msgid "Получена на дата"
+msgstr "Delivery Date"
+
+msgid "Дата на създаване"
+msgstr "Date of creation"
+
+msgid "Проследи"
+msgstr "Track"
+
+msgid "Ваучер за връщане"
+msgstr "Return voucher"
+
+msgid "Заяви куриер"
+msgstr "Request For Courier"
+
+msgid "Готово, проследихте товарителница/и: %s !"
+msgstr "Done, you've tracked bill of loading/s %s !"
+
+msgid "Готово, отказахте товарителница/и: %s !"
+msgstr "Done, you declined the bill of lading/s %s !"
+
+msgid "Няма намерени резултати!"
+msgstr "No results found!"
+
+msgid "Автоматично транслитериране:"
+msgstr "Automatic transliteration:"
+
+msgid "Допълнително хартиено копие на товарителниците:"
+msgstr "Additional waybill paper copy:"
