@@ -491,3 +491,15 @@ td.product-name {
     border: none !important;
     box-shadow: 0px 0px 3px var(--main-warm-color) !important;
 }
+
+.woocommerce-error {
+    background-color: var(--main-warm-color) !important;
+}
+
+.woocommerce-error .button {
+    background-color: transparent !important;
+}
+
+.woocommerce-error .button:hover {
+    border: 0px !important;
+}
