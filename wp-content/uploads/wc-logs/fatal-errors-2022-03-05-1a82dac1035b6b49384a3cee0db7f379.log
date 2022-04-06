@@ -1,2 +1,0 @@
-2022-03-05T04:31:19+00:00 CRITICAL Out of memory (allocated 2097152) (tried to allocate 2097152 bytes) in C:\UwAmp\www\jewelry-project\wp-content\plugins\woocommerce-paypal-payments\modules\ppcp-wc-gateway\services.php on line 438
-
